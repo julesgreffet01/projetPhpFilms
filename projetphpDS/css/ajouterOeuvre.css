@@ -4,9 +4,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
-    width: 400px;
-    margin-top: 20svh;
-    margin-right: 20svh;
+    margin-top: 17svh;
 }
 
 .form-group {

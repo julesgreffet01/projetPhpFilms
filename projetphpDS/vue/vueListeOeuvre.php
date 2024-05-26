@@ -78,13 +78,13 @@
     <script>
         function left(container) {
             container.scrollBy({
-                left: 200,
+                left: 1000,
                 behavior: 'smooth'
             });
         }
         function right(container) {
             container.scrollBy({
-                left: -200,
+                left: -1000,
                 behavior: 'smooth'
             });
         }

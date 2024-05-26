@@ -119,9 +119,6 @@
             <button type="submit" name = "BtnAdd" class="validate-button">Valider</button>
         </div>
     </div>
-    <br>
-    <br>
-    <p>pour pouvoir scroller mais c est cache par le bas de page</p>
 </form>
 </body>
 </html>

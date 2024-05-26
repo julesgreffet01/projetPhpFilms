@@ -1,12 +1,7 @@
-.container {
-    text-align: center; /* Centrer le contenu horizontalement */
-    margin: 0 auto; /* Centrer le conteneur horizontalement */
-   
-}
 
 h1 {
-    margin-top: 1svh;
-    margin-left: 78svh;
+    margin-top: 20svh;
+    margin-left: 13svh;
     color: #afafaf;
 
 }
@@ -15,9 +10,7 @@ h1 {
     background-color: #181818;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     width: 70svh;
-    margin: 0 auto;
     border: 1px solid #fff;
 }
 
@@ -26,6 +19,7 @@ label {
     display: block;
     margin-bottom: 5px;
     color: #ffffff;
+    margin-left: 18svh;
 }
 
 input[type="text"],
@@ -34,8 +28,7 @@ input[type="password"] {
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
-    border-radius: 5px;
-    display: block;
+    border-radius: 5px; 
     margin-left: 17svh;
 }
 
@@ -43,11 +36,10 @@ input[type="submit"] {
     background-color: #202020;
     color: #fff;
     padding: 10px 20px;
-    border: none;
     border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
     border: 1px solid #ffffff;
+    width:30svh;
+    margin-left:17svh;
 }
 
 input[type="submit"]:hover {
@@ -61,7 +53,6 @@ input[type="submit"]:hover {
     border: 1px solid #ff0000;
     border-radius: 2svh;
     padding: 10px;
-    margin-left: 65svh;
     margin-bottom: 5svh;
     width: 70svh;
 }

@@ -1,0 +1,20 @@
+.cadre {
+    background-color: #181818; 
+    color: white; 
+    width: 80%; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px; 
+    margin-top:14svh;
+}
+
+.image {
+    width: 350px; 
+    height: 500px; 
+    
+}
+.texte p {
+    margin-bottom: 4svh; 
+    font-size: 2.5svh;
+}

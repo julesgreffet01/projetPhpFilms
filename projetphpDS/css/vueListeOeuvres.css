@@ -13,10 +13,7 @@
 
 #scrollLeftBtn,#scrollRightBtn {
     font-size: 2svh;
-    position: relative;/*supprimable*/
     border: none;
-    right: 0;/*supprimable*/
-    top:0;/*supprimable*/
     background: #202020;
     border-radius: 20px;
     color:#898989;
@@ -53,7 +50,7 @@
     justify-content: flex-start;
     width: 100%;
     overflow-x: auto;
-    scrollbar-width: none; /* Masque la barre de défilement native */
+    scrollbar-width: none; 
     gap:30px;
     position: absolute;
     top:10%;
@@ -69,9 +66,3 @@
 h3{
     color:white;
 }
-.titreOeuvre {
-        font-size: 16px;
-        color: #fff;
-        text-align: center;
-        margin-bottom: 100px;
-    }

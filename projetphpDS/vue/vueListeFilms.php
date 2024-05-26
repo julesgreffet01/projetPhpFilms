@@ -37,7 +37,6 @@
                 behavior: 'smooth'
             });
         }
-        
     </script>
     
 

@@ -3,21 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../css/formulaireConnexion.css" rel="stylesheet" type="text/css">
-    <title>Connexion</title>
+    <link href="../css/vue_connexion.css" rel="stylesheet" type="text/css">
+    <title>JulesCorporate </title>
+    <link rel="icon" href="../img/julescorp.ico" type="image/x-icon">
 </head>
 <body>
-    <?php   include('../vue/navBarreSC.php');
-            include('../vue/basDePage.php');
-    ?>
-<div class="container">
-    <h1>Connexion</h1>
+<?php include('navbarreSC.php'); 
+        include('basDePage.php');?>
+<div class="containerco">
+    <h1>Veuillez-vous connecter</h1>
 
-    <?php if(isset($error_message)){ ?>
+    <?php if(isset($error_message)): ?>
         <p class='error-message'><?php echo $error_message; ?></p>
-    <?php } ?>
+    <?php endif; ?>
 
-    <form method="POST" action="">
+    <form class="formco" method="POST" action="">
         <label for="Nom">Identifiant</label>
         <input type="text" placeholder="Entrez votre Identifiant..." id="nom" name="nom" required/>
         <label for="password">Mot de passe</label>
