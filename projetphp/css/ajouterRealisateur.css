@@ -1,0 +1,42 @@
+
+.cadre {
+    background-color: #000;
+    padding: 20px;
+}
+
+.titre {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+.titre h2 {
+    color: #fff;
+}
+
+.textbox {
+    margin-bottom: 20px;
+}
+
+.textbox input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF7800;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover/*qd on met le curseur ça devient vert*/ {
+    background-color: #45a049;
+}

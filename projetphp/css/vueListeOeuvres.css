@@ -1,0 +1,77 @@
+.containerFilm {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow-x: scroll;
+    width: 100%;
+    scrollbar-width: none;
+    gap:30px;
+}
+.icone{
+    font-size:3svh;
+}
+
+#scrollLeftBtn,#scrollRightBtn {
+    font-size: 2svh;
+    position: relative;/*supprimable*/
+    border: none;
+    right: 0;/*supprimable*/
+    top:0;/*supprimable*/
+    background: #202020;
+    border-radius: 20px;
+    color:#898989;
+
+}
+.container {
+    display:flex;
+    flex-direction:column;
+    align-items: start;
+    justify-content: flex-start;
+    width: 100%;
+    margin:20px;
+    padding:20px;
+}
+.scrollContainer {
+    display:flex;
+    flex-direction:row-reverse;
+    align-items: center;
+    justify-content: flex-start;
+    gap:1svh;
+    width: 100%;
+} 
+.articleImage{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+.containerPrincipal{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    overflow-x: auto;
+    scrollbar-width: none; /* Masque la barre de défilement native */
+    gap:30px;
+    position: absolute;
+    top:10%;
+}
+.articleImage img{
+    width: 35svh;
+    height: 50svh;
+}
+.articleImage img{
+    width: 35svh;
+    height: 50svh;
+}
+h3{
+    color:white;
+}
+.titreOeuvre {
+        font-size: 16px;
+        color: #fff;
+        text-align: center;
+        margin-bottom: 100px;
+    }

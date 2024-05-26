@@ -1,0 +1,40 @@
+.containergerer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    width: 400px;
+    margin-top: 20svh;
+    margin-right: 20svh;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+}
+
+.button {
+    padding: 5px;
+    background-color: #444;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+}
+.validate-button {
+    grid-column: span 2;
+    padding: 6px;
+    background-color: #0066cc;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top:3svh;
+}
+.header{
+    margin-right: 10svh;
+}
+

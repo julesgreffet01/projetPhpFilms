@@ -1,0 +1,23 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #181818;
+  color: #fff;
+  padding: 10px; /* Réduction de la hauteur */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-style:  italic;
+}
+
+.left-name, .right-name {
+  flex: 0;
+}
+
+.center-name {
+  flex: 1;
+  text-align: center;
+  
+}
